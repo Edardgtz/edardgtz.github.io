@@ -1,6 +1,6 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");
-
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
 /*
 	Spectral by HTML5 UP
 	html5up.net | @ajlkn
@@ -2078,15 +2078,15 @@ input, select, textarea {
 			}
 
 		.icon.style1 {
-			color: #00ffcc;
+			color: #3f3f3f;
 		}
 
 		.icon.style2 {
-			color: #00f0ff;
+			color: #3f3f3f;
 		}
 
 		.icon.style3 {
-			color: #76ddff;
+			color: #3f3f3f;
 		}
 
 /* Image */
@@ -2817,7 +2817,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #21b2a6;
+			background-color: #646464;
 			color: #c8ece9;
 		}
 
@@ -3144,7 +3144,7 @@ input, select, textarea {
 
 		.wrapper.style5 {
 			background-color: #ffffff;
-			color: #4E4852;
+			color: #38323b;
 		}
 
 			.wrapper.style5 strong, .wrapper.style5 b {
@@ -3822,7 +3822,7 @@ input, select, textarea {
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
-		text-align: center;
+		text-align: end;
 	}
 
 		#main > header h2 {

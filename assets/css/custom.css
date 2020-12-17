@@ -1,4 +1,39 @@
-.header_font {
-  font-family: 'Prompt', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Quattrocento+Sans:wght@700&display=swap');
+
+.custom_font {
+  font-family: 'Julius Sans One', sans-serif;
+font-family: 'Quattrocento Sans', sans-serif;
 }
+
+.subtitle {
+  margin: 0 0 2em 0;
+}
+
+.fancy {
+  line-height: 0.5;
+  text-align: center;
+}
+.fancy span {
+  display: inline-block;
+  position: relative;  
+}
+.fancy span:before,
+.fancy span:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+  top: 0;
+  width: 600px;
+}
+.fancy span:before {
+  right: 25%;
+  margin-right: 15px;
+}
+.fancy span:after {
+  left: 25%;
+  margin-left: 15px;
+}
+
 

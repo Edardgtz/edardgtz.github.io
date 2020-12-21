@@ -37,3 +37,37 @@ font-family: 'Quattrocento Sans', sans-serif;
 }
 
 
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.padding{
+  padding: 5%;
+}
+
+.center {
+  position: center;
+}
+
+
+.form-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 1em 6em;
+}
+
+form {
+  width: 100%;
+  margin: 1em 0;
+}
+
+input {
+  width: calc(100% - 25px);
+  height: 50px;
+  border: solid 1px #ccc;
+  font-size: 18px;
+  padding-left: 25px;
+}

@@ -37,14 +37,15 @@ font-family: 'Quattrocento Sans', sans-serif;
 }
 
 
-img {
-  display: block;
-  margin: 0 auto;
-  max-width: 100%;
+.header {
+  width: 100%;
+  height: 25vw;
+  object-fit: fill;
 }
 
 .padding{
   padding: 5%;
+  
 }
 
 .center {

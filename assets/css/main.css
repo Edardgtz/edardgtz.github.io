@@ -23,7 +23,9 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: baseline;
+	pos
+}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -3815,13 +3817,15 @@ input, select, textarea {
 	#main > header {
 		padding: 12em 0 10em 0 ;
 		/* background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/EddieAllie_0118.jpeg"); */
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/dinoeddie2.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/fam_pic.jpeg");
 		/* background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/EddieAllie_0118.jpeg"); */
 		/* background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/EddieAllie_0118.jpeg"); */
 		background-attachment: scroll;
-		background-position: center center;
+		background-position: contain;
 		background-repeat: no-repeat;
 		background-size: cover;
+		width: 100%;
+		
 		text-align: end;
 	}
 

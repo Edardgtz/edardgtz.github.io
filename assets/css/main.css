@@ -162,6 +162,7 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2em 0;
+		line-height: 1.1em;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -214,6 +215,7 @@ input, select, textarea {
 	h5 {
 		font-size: 0.8em;
 		line-height: 1.5em;
+		
 	}
 
 	h6 {
@@ -420,7 +422,8 @@ input, select, textarea {
 		}
 
 		.row > .col-12 {
-			width: 100%;
+			/* width: 100%; */
+
 		}
 
 		.row > .off-12 {
@@ -3816,10 +3819,10 @@ input, select, textarea {
 
 	#main > header {
 		padding: 12em 0 10em 0 ;
-		/* background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/EddieAllie_0118.jpeg"); */
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/fam_pic.jpeg");
-		/* background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/EddieAllie_0118.jpeg"); */
-		/* background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/EddieAllie_0118.jpeg"); */
+		/* background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/alliecrew_F21_preview_004.jpeg"); */
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/Users/eduardogutierrez/Desktop/Actualize/edardgtz.github.io/images/alliecrew_F21_preview_004.jpg");
+		/* background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/alliecrew_F21_preview_004.jpeg"); */
+		/* background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/alliecrew_F21_preview_004.jpeg"); */
 		background-attachment: scroll;
 		background-position: contain;
 		background-repeat: no-repeat;
@@ -3989,10 +3992,10 @@ input, select, textarea {
 
 	body.is-mobile.landing #banner,
 	body.is-mobile.landing .wrapper.style4 {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/EddieAllie_0118.jpeg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/EddieAllie_0118.jpeg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/EddieAllie_0118.jpeg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/EddieAllie_0118.jpeg");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/alliecrew_F21_preview_004.jpeg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/alliecrew_F21_preview_004.jpeg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/alliecrew_F21_preview_004.jpeg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/alliecrew_F21_preview_004.jpeg");
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
